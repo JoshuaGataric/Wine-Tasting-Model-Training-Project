@@ -5,4 +5,5 @@ Linear SVC Confusion Matrix and F1 Macro Avg Score:
 
 
 Random Forest Confusion Matrix anf F1 Macro Avg Score:
+![Random Forest Confusion Matrix](./RandomForestConfusionMatrix.png)
 
