@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wine Tasting Model Training Project</title>
+    <link rel="stylesheet" href="style.css"> <!-- Optional if you want custom styling -->
+</head>
+<body>
+    <header>
+        <h1>Wine Tasting Model Training Project</h1>
+    </header>
+
+    <section>
+        <h2>Project Overview</h2>
+        <p>This project demonstrated the application of machine learning techniques to predict wine labels based on wine reviews. By leveraging text processing tools such as CountVectorizer and TfidfVectorizer, and employing models like LinearSVC and RandomForestClassifier, the project achieved meaningful insights into wine label prediction.</p>
+        
+        <p>The use of F1 macro average scores provided a balanced evaluation of the model’s precision and recall across different labels, while the confusion matrix visualization offered a deeper understanding of model performance and areas for improvement.</p>
+
+        <p>Future work could involve exploring deeper models like neural networks or incorporating more features from the wine reviews, such as reviewer characteristics or wine-specific attributes like price and region, to further enhance predictive performance.</p>
+
+        <h2>Results</h2>
+        <h3>Linear SVC Confusion Matrix and F1 Macro Avg Score:</h3>
+        <img src="./SVMConfusionMatrix.png" alt="Linear SVC Confusion Matrix">
+        <img src="./SVMScores.png" alt="Linear SVC F1 Macro Avg Score">
+
+        <h3>Random Forest Confusion Matrix and F1 Macro Avg Score:</h3>
+        <img src="./RandomForestConfusionMatrix.png" alt="Random Forest Confusion Matrix">
+        <img src="./RandomForestScores.png" alt="Random Forest F1 Macro Avg Score">
+    </section>
+
+    <footer>
+        <p>© 2024 Joshua Gataric</p>
+    </footer>
+</body>
+</html>
